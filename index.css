@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.navbar>.left_navbar{
+    display: flex;
+    align-self: center;
+    gap: 40px;
+    padding-left: 20px;
+}
+
+.left_navbar>.left_anchor{
+   text-decoration: none;
+    color: #0D6EFD;
+}
+
+.navbar>.right_navbar{
+    display: flex;
+    gap: 10px;
+    padding-right: 30px;
+    justify-content: space-around;
+}
+
+.right_navbar{
+    padding: 10px;
+   
+}
+
+.text_heading{
+    color: #212529;
+}
+
+.lorem_text{
+    color: #212529;
+}
+
+.first_landing{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.middle_landing{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.middle_landing> .according_items{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.card_header{
+
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4,325px);
+    grid-template-rows: repeat(1,700px);
+    padding-left: 20px;
+ 
+}
+
+.card_box{
+    border: 0.1px solid gray;
+    border-radius: 4px;
+   
+   
+}
+.card_box>img{
+    height: 210px;
+    width: 320px;
+}
+
+.gosomewhere{
+    background-color: #0D6EFD;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding-top: 10px;
+    border: none;
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    display: flex;
+  padding: 10px;
+
+}
+
+.fix_anker>a{
+   padding: 5px;
+   
+}
+  
+th {
+    
+    padding-left: 50px;
+    padding-right: 40px;
+ }
+
+ td{
+    
+    
+        padding-left: 110px;
+        padding-right: 40px;
+    
+ }
+
+ .footer_part{
+    padding: 10px;
+ }
+
+ thead{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .btn{
+    background-color: #0D6EFD;
+    color:white;
+    height: 38px;
+    width:110px;
+    
+}
+
+.form-row{
+    display:flex;
+    height:38px;
+    gap:20px;
+
+}
+.form-control{
+    width:812px;
+    border-radius:0.3px solid #CED4DA;
+    color:#6C757D;
+      background-color: #FFFFFF;
+}
+.form-control1{
+    height: 38px;
+    width:1457px;
+    color:#CED4DA;
+    background-color: #FFFFFF;
+
+}
+input{
+    border: 1px solid #6C757D;
+}
